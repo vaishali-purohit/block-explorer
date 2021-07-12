@@ -1,0 +1,44 @@
+.footer {
+  background-color: #33383e;
+  margin-top: 60px;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer .list-group-item {
+  padding: 0;
+  background-color: #33383e;
+  border: 0;
+  border-bottom: 1px solid #4f75b6;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.footer .info-link a {
+  color: #4f75b6;
+}
+
+.footer span {
+  font-size: 14px;
+  color: #467083;
+}
+
+.faq-link {
+  margin-top: 67px;
+}
+
+.faq-link .line {
+  border-left: 2px solid #4f75b6;
+}
+
+.footer .nav-link {
+  display: inline; 
+   padding: 0;
+}

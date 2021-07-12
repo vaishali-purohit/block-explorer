@@ -1,0 +1,48 @@
+.table-container {
+  th {
+    padding: 20px;
+    font-weight: normal;
+  }
+  td {
+    padding: 20px;
+    color: darkgray;
+  }
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: black;
+  background-color: white;
+  border-color: #dee2e6;
+}
+
+.page-item .page-link {
+  color: darkgray;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+
+.pagination {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.color-align {
+  color: black !important;
+  text-align: center !important;
+}
+
+.color {
+  color: black !important;
+}
+
+.pd-0 {
+  padding: 0;
+  color: darkgray;
+}
+a.pd-0:hover {
+  color: #000;
+  text-decoration: underline;
+}

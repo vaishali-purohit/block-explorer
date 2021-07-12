@@ -1,0 +1,43 @@
+.border-top {
+  border-top: 3px solid #0083fb !important;
+  background-color: #fff;
+  padding: 0 15px;
+}
+
+.detail-link a {
+  color: darkgray;
+  padding: 0;
+}
+
+.detail-link a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+span.upperCase::first-letter {
+  text-transform: uppercase;
+}
+
+span.badge {
+  background: rgba(255, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 3px 14px;
+}
+
+.pending.badge {
+  background: #a45a95;
+}
+
+.mined.badge {
+  background: #5887da;
+}
+
+.submitted.badge {
+  background: #a2b7c1;
+}
+
+.executed.badge {
+  background: #2bb5a2;
+}

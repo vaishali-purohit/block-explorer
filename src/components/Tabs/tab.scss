@@ -1,0 +1,21 @@
+.nav-tabs {
+  border-bottom: none;
+
+  .nav-link {
+    color: #495057;
+  }
+}
+
+.nav-tabs .nav-link.active {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 3px solid #0083fb;
+}
+
+.nav-tabs .nav-link:hover:not(.active) {
+  border-color: transparent;
+}
+
+.nav-tabs .nav-link:focus:not(.active) {
+  outline-color: transparent;
+}

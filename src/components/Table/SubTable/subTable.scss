@@ -1,0 +1,54 @@
+.latest-blocks.row {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-bottom: 2px solid lightgrey;
+  background-color: white;
+  margin: 0;
+  color: black;
+  -webkit-animation: diagonal-slide 5s;
+  animation: diagonal-slide 5s;
+  position: relative;
+
+  img {
+    width: 40px;
+    margin-left: 12px;
+    margin-right: 17px;
+    height: 40px;
+  }
+
+  a {
+    padding: 0;
+    color: #aaa;
+    text-decoration: none;
+  }
+
+  .dim-color {
+    color: #b3c4de;
+  }
+}
+
+@keyframes diagonal-slide {
+  0% {
+    left: 0;
+    top: -50px;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+
+.btn.btn-primary {
+  padding: 1px 6px;
+  background-color: #b3c4de;
+  border: none;
+
+  a {
+    color: whitesmoke;
+  }
+}
+
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #1e2844;
+}
+

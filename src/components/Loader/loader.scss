@@ -1,0 +1,30 @@
+.waiting {
+  width: 300px;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: 30%;
+  background-color: grey;
+  height: 400px;
+  padding: 15px;
+  color: #fff;
+  border-radius: 10px;
+  z-index: 1000;
+  opacity: 0.8;
+  display: none;
+
+  img {
+    position: absolute;
+    left: 13%;
+  }
+
+  .modal-content {
+    background-color: gray;
+    border: none;
+  }
+  
+  .modal-header {
+    display: inline-grid;
+    padding: 0;
+    border: none;
+  }
+}
