@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.topSection {
+  padding-top: 105px;
+  flex-grow: 2;
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) {
+  .home-page.container {
+    .latest-blocks.row,
+    button {
+      font-size: 14px;
+    }
+    .media_tablet.col {
+      padding: 0;
+    }
+  }
+  @media (max-width: 1199px) {
+    .bt-validate {
+      padding-left: 84px !important;
+    }
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  //CSS
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .home-page.container {
+    .card-header {
+      font-size: 14px;
+    }
+    .media_tablet {
+      padding-left: 84px;
+    }
+  }
+  .count-container .row {
+    flex-wrap: inherit;
+  }
+  .bt-validate {
+    margin-left: 70px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .home-page.container {
+    .card-header {
+      font-size: 11px;
+    }
+    .latest-blocks.row,
+    button {
+      font-size: 11px;
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+    .media_tablet {
+      padding-left: 67px;
+    }
+    .bt-validate {
+      margin-left: 52px;
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+  .home-page.container {
+    .card-header {
+      font-size: 14px;
+    }
+    .latest-blocks.row,
+    button {
+      font-size: 12px;
+    }
+    .bt-validate {
+      padding-left: 84px;
+    }
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (max-width: 480px) {
+  .home-page.container {
+    .card-header {
+      font-size: 13px;
+    }
+    .latest-blocks.row,
+    button {
+      font-size: 12px;
+    }
+    .bt-validate {
+      margin-left: 70px;
+    }
+    @media (min-width: 416px) {
+      .media_tablet {
+        padding-left: 0;
+      }
+    }
+    @media (max-width: 416px) {
+      .media_tablet {
+        padding-left: 84px;
+      }
+    }
+  }
+}
